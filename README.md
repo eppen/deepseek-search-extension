@@ -99,17 +99,35 @@ deepseek-search-extension/
 
 ## 🔗 GitHub
 
-代码已准备好推送到GitHub。详细步骤请查看 [GITHUB.md](GITHUB.md)
+**仓库地址**: [https://github.com/eppen/deepseek-search-extension](https://github.com/eppen/deepseek-search-extension)
 
-### 快速推送命令
+### 当前版本标签
 
+- **v1.2.0** - 当前稳定版本
+
+### 创建新标签
+
+**Windows:**
 ```bash
-# 添加远程仓库（替换YOUR_USERNAME为您的GitHub用户名）
-git remote add origin https://github.com/YOUR_USERNAME/deepseek-search-extension.git
-
-# 推送到GitHub
-git push -u origin master
+create_tag.bat
 ```
+
+**Linux/macOS:**
+```bash
+chmod +x create_tag.sh
+./create_tag.sh
+```
+
+**手动创建:**
+```bash
+# 创建标签
+git tag -a v1.2.1 -m "Release v1.2.1"
+
+# 推送标签
+git push origin v1.2.1
+```
+
+详细步骤请查看 [GITHUB.md](GITHUB.md)
 
 ## 📦 打包插件
 
