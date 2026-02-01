@@ -2,6 +2,10 @@
 
 一个功能强大的Chrome浏览器插件，参考 [askanywhere](https://github.com/sharmt1411/askanywhere) 项目设计理念，实现多种方式使用DeepSeek AI助手。
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.2.0-orange)](https://github.com)
+
 ## ✨ 功能特点
 
 ### 右键菜单功能
@@ -92,6 +96,20 @@ deepseek-search-extension/
 ## 参考项目
 
 本插件参考了 [askanywhere](https://github.com/sharmt1411/askanywhere) 项目的设计理念，提供了类似的划词AI助手功能，适配Chrome浏览器环境。
+
+## 🔗 GitHub
+
+代码已准备好推送到GitHub。详细步骤请查看 [GITHUB.md](GITHUB.md)
+
+### 快速推送命令
+
+```bash
+# 添加远程仓库（替换YOUR_USERNAME为您的GitHub用户名）
+git remote add origin https://github.com/YOUR_USERNAME/deepseek-search-extension.git
+
+# 推送到GitHub
+git push -u origin master
+```
 
 ## 📦 打包插件
 
